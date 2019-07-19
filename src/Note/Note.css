@@ -1,0 +1,9 @@
+.note {
+    border: 1px solid black;
+    margin: 2px;
+}
+
+
+.note-body button {
+    display: inline;
+}

@@ -1,0 +1,36 @@
+header {
+    height: 150px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+}
+
+.main-display {
+    float: right;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.error {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+}
+form input, select, button {
+    width: 30%;
+}
